@@ -67,6 +67,8 @@ set ts=4 sw=4 noexpandtab
 set listchars=tab:>-,trail:.,eol:$
 " typeahead search
 set hlsearch incsearch noignorecase
+" highlight doxygen comments
+let g:load_doxygen_syntax=1
 
 " KEYS
 
