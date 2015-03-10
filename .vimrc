@@ -53,6 +53,10 @@ let g:ctrlp_working_path_mode='r'
 " don't check on write
 let g:syntastic_mode_map = { 'mode': 'passive' }
 
+" FILE TYPES
+
+au BufNewFile,BufRead Podfile set ft=ruby
+
 " BEHAVIOR
 
 syntax on
