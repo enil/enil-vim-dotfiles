@@ -97,7 +97,7 @@ if (has('gui'))
 	" always use text dialogs and UI
 	set guioptions=cm
 	" use Airline compatible font
-	if (has('gui_mac'))
+	if (has('mac'))
 		set guifont=Sauce\ Code\ Powerline\ Light:h11
 	else
 		set guifont=Source\ Code\ Pro\ for\ Powerline\ Light\ 10
