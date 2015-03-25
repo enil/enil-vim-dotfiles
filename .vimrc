@@ -18,6 +18,7 @@ Bundle 'bling/vim-airline'
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'Raimondi/delimitMate'
+Bundle 'junegunn/vim-easy-align'
 " git
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
@@ -48,6 +49,10 @@ let g:airline_theme='luna'
 " CtrlP
 " git project as root
 let g:ctrlp_working_path_mode='r'
+
+" vim-easy-align
+vmap <Enter> <Plug>(EasyAlign)
+nmap ga <Plug>(EasyAlign)
 
 " syntastic
 " don't check on write
