@@ -60,7 +60,11 @@ let g:syntastic_mode_map = { 'mode': 'passive' }
 
 " FILE TYPES
 
+" Podfiles and Vagrantfiles are in Ruby
 au BufNewFile,BufRead Podfile set ft=ruby
+au BufNewFile,BufRead Vagrantfile set ft=ruby
+" Gradle scripts are in Groovy
+au BufNewFile,BufRead *.gradle set ft=groovy
 
 " BEHAVIOR
 
