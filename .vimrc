@@ -78,6 +78,8 @@ set listchars=tab:>-,trail:.,eol:$
 set hlsearch incsearch noignorecase
 " highlight doxygen comments
 let g:load_doxygen_syntax=1
+" split windows to the right or below
+set splitright splitbelow
 
 " KEYS
 
