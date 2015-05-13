@@ -51,7 +51,7 @@ let g:airline_theme='luna'
 let g:ctrlp_working_path_mode='r'
 
 " vim-easy-align
-vmap <Enter> <Plug>(EasyAlign)
+vmap <Space> <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 
 " syntastic
