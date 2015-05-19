@@ -29,6 +29,7 @@ Bundle 'mikelue/vim-maven-plugin'
 Bundle 'tpope/vim-cucumber'
 Bundle 'sukima/xmledit'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'vim-ruby/vim-ruby'
 " themes
 Bundle 'tomasr/molokai'
 Bundle 'sickill/vim-monokai'
@@ -65,6 +66,8 @@ au BufNewFile,BufRead Podfile set ft=ruby
 au BufNewFile,BufRead Vagrantfile set ft=ruby
 " Gradle scripts are in Groovy
 au BufNewFile,BufRead *.gradle set ft=groovy
+" outdent accessor modifiers in Ruby
+let g:ruby_indent_access_modifier_style='outdent'
 
 " BEHAVIOR
 
