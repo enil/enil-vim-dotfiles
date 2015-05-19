@@ -29,6 +29,7 @@ Bundle 'mikelue/vim-maven-plugin'
 Bundle 'tpope/vim-cucumber'
 Bundle 'sukima/xmledit'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'fatih/vim-go'
 Bundle 'vim-ruby/vim-ruby'
 " themes
 Bundle 'tomasr/molokai'
