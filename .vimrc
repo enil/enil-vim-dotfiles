@@ -88,6 +88,8 @@ set hlsearch incsearch noignorecase
 let g:load_doxygen_syntax=1
 " split windows to the right or below
 set splitright splitbelow
+" show completion menu in command line
+set wildmenu
 
 " KEYS
 
