@@ -80,6 +80,8 @@ set encoding=utf-8
 set number ruler
 set backspace=indent,eol,start
 set wildignore=*/target/*,*/work/*,*.o,*.class
+set cursorline
+set colorcolumn=120
 " hard tabs width 4
 set ts=4 sw=4 noexpandtab
 " invisible characters
