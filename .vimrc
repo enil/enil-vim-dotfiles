@@ -20,6 +20,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'Raimondi/delimitMate'
 Bundle 'junegunn/vim-easy-align'
 Bundle 'kana/vim-textobj-user'
+Bundle 'scrooloose/nerdtree'
 " git
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
@@ -105,6 +106,8 @@ nmap <silent><leader>h :setlocal list!<CR>
 nmap <silent><leader><space> :noh<CR>
 " open CtrlP
 nmap <silent><leader><cr> :CtrlP<CR>
+" toggle NERDTree
+nmap <silent><leader><leader> :NERDTreeToggle<CR>
 " check syntax
 nmap <silent><leader>s :SyntasticCheck<CR>
 " toggle gitgutter
