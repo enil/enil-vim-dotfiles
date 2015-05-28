@@ -84,7 +84,9 @@ set wildignore=*/target/*,*/work/*,*.o,*.class
 set cursorline
 set colorcolumn=120
 " hard tabs width 4
-set ts=4 sw=4 noexpandtab
+set tabstop=4 shiftwidth=4 noexpandtab
+" make backspace work as expected for soft tabs
+set softtabstop=-1
 " invisible characters
 set listchars=tab:>-,trail:.,eol:$
 " typeahead search
