@@ -34,6 +34,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'fatih/vim-go'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'rhysd/vim-textobj-ruby'
+Bundle 'ekalinin/Dockerfile.vim'
 " themes
 Bundle 'tomasr/molokai'
 Bundle 'sickill/vim-monokai'
