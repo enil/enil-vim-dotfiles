@@ -21,6 +21,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'junegunn/vim-easy-align'
 Plug 'kana/vim-textobj-user'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-surround'
 " git
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
