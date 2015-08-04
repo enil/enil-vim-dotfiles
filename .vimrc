@@ -3,7 +3,6 @@ filetype off
 
 " use Vundle
 set runtimepath+=~/.vim/bundle/vundle/
-call vundle#rc()
 
 " load local settings
 let s:local_settings_file=glob('$HOME/.vimrc.local')
@@ -13,37 +12,36 @@ end
 
 " PLUGINS
 
-call vundle#begin()
+call plug#begin('.vim/bundle')
 
-Plugin 'gmarik/vundle'
-Plugin 'bling/vim-airline'
-Plugin 'kien/ctrlp.vim'
-Plugin 'scrooloose/nerdcommenter'
-Plugin 'Raimondi/delimitMate'
-Plugin 'junegunn/vim-easy-align'
-Plugin 'kana/vim-textobj-user'
-Plugin 'scrooloose/nerdtree'
+Plug 'bling/vim-airline'
+Plug 'kien/ctrlp.vim'
+Plug 'scrooloose/nerdcommenter'
+Plug 'Raimondi/delimitMate'
+Plug 'junegunn/vim-easy-align'
+Plug 'kana/vim-textobj-user'
+Plug 'scrooloose/nerdtree'
 " git
-Plugin 'tpope/vim-fugitive'
-Plugin 'airblade/vim-gitgutter'
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 " syntax check
-Plugin 'scrooloose/syntastic'
+Plug 'scrooloose/syntastic'
 " filetypes
-Plugin 'mikelue/vim-maven-plugin'
-Plugin 'tpope/vim-cucumber'
-Plugin 'sukima/xmledit'
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'fatih/vim-go'
-Plugin 'vim-ruby/vim-ruby'
-Plugin 'rhysd/vim-textobj-ruby'
-Plugin 'ekalinin/Dockerfile.vim'
-Plugin 'kylef/apiblueprint.vim'
+Plug 'mikelue/vim-maven-plugin', { 'branch': 'origin' }
+Plug 'tpope/vim-cucumber'
+Plug 'sukima/xmledit'
+Plug 'kchmck/vim-coffee-script'
+Plug 'fatih/vim-go'
+Plug 'vim-ruby/vim-ruby'
+Plug 'rhysd/vim-textobj-ruby'
+Plug 'ekalinin/Dockerfile.vim'
+Plug 'kylef/apiblueprint.vim'
 " themes
-Plugin 'tomasr/molokai'
-Plugin 'sickill/vim-monokai'
-Plugin 'altercation/vim-colors-solarized'
+Plug 'tomasr/molokai'
+Plug 'sickill/vim-monokai'
+Plug 'altercation/vim-colors-solarized'
 
-call vundle#end()
+call plug#end()
 
 " PLUGIN SETTINGS
 
