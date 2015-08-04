@@ -103,6 +103,8 @@ let g:load_doxygen_syntax=1
 set splitright splitbelow
 " show completion menu in command line
 set wildmenu
+" ignore temporary directories from CtrlP etc
+set wildignore+=*/doc/*,*/docs/*,*/temp/*,*/tmp/*,*/vendor/*
 
 " KEYS
 
