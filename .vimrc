@@ -13,32 +13,37 @@ end
 
 " PLUGINS
 
-Bundle 'gmarik/vundle'
-Bundle 'bling/vim-airline'
-Bundle 'kien/ctrlp.vim'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'Raimondi/delimitMate'
-Bundle 'junegunn/vim-easy-align'
-Bundle 'kana/vim-textobj-user'
-Bundle 'scrooloose/nerdtree'
+call vundle#begin()
+
+Plugin 'gmarik/vundle'
+Plugin 'bling/vim-airline'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'Raimondi/delimitMate'
+Plugin 'junegunn/vim-easy-align'
+Plugin 'kana/vim-textobj-user'
+Plugin 'scrooloose/nerdtree'
 " git
-Bundle 'tpope/vim-fugitive'
-Bundle 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
 " syntax check
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 " filetypes
-Bundle 'mikelue/vim-maven-plugin'
-Bundle 'tpope/vim-cucumber'
-Bundle 'sukima/xmledit'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'fatih/vim-go'
-Bundle 'vim-ruby/vim-ruby'
-Bundle 'rhysd/vim-textobj-ruby'
-Bundle 'ekalinin/Dockerfile.vim'
+Plugin 'mikelue/vim-maven-plugin'
+Plugin 'tpope/vim-cucumber'
+Plugin 'sukima/xmledit'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'fatih/vim-go'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'rhysd/vim-textobj-ruby'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'kylef/apiblueprint.vim'
 " themes
-Bundle 'tomasr/molokai'
-Bundle 'sickill/vim-monokai'
-Bundle 'altercation/vim-colors-solarized'
+Plugin 'tomasr/molokai'
+Plugin 'sickill/vim-monokai'
+Plugin 'altercation/vim-colors-solarized'
+
+call vundle#end()
 
 " PLUGIN SETTINGS
 
