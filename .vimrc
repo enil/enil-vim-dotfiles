@@ -12,7 +12,7 @@ end
 
 " PLUGINS
 
-call plug#begin('.vim/bundle')
+call plug#begin('~/.vim/bundle')
 
 Plug 'bling/vim-airline'
 Plug 'kien/ctrlp.vim'
@@ -70,9 +70,8 @@ let g:syntastic_mode_map = { 'mode': 'passive' }
 
 " FILE TYPES
 
-" Podfiles and Vagrantfiles are in Ruby
-au BufNewFile,BufRead Podfile set ft=ruby
-au BufNewFile,BufRead Vagrantfile set ft=ruby
+" Ruby DSLs
+au BufNewFile,BufRead Podfile,Vagrantfile,Guardfile set ft=ruby
 " Gradle scripts are in Groovy
 au BufNewFile,BufRead *.gradle set ft=groovy
 " outdent accessor modifiers in Ruby
