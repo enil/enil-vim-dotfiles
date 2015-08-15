@@ -22,6 +22,8 @@ Plug 'junegunn/vim-easy-align'
 Plug 'kana/vim-textobj-user'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
+Plug 'ngmy/vim-rubocop'
+Plug 'ntpeters/vim-better-whitespace'
 " git
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
