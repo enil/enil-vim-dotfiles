@@ -106,6 +106,8 @@ set splitright splitbelow
 set wildmenu
 " ignore temporary directories from CtrlP etc
 set wildignore+=*/doc/*,*/docs/*,*/temp/*,*/tmp/*,*/vendor/*
+" mouse support in terminal
+set mouse=a ttymouse=xterm2
 
 " KEYS
 
