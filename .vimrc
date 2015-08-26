@@ -25,6 +25,7 @@ Plug 'tpope/vim-surround'
 Plug 'ngmy/vim-rubocop'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'tpope/vim-eunuch'
+Plug 'tpope/vim-dispatch'
 " git
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
