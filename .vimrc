@@ -11,6 +11,9 @@ if (filereadable(s:local_settings_file))
 end
 
 " PLUGINS
+if empty(glob('~/.vim/bundle'))
+	autocmd VimEnter * PlugInstall | source $MYVIMRC | close
+end
 
 call plug#begin('~/.vim/bundle')
 
