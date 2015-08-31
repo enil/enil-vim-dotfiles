@@ -44,6 +44,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'rhysd/vim-textobj-ruby'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'kylef/apiblueprint.vim'
+Plug 'https://github.com/nginx/nginx.git', { 'name': 'nginx', 'rtp': 'contrib/vim' }
 " themes
 Plug 'tomasr/molokai'
 Plug 'sickill/vim-monokai'
