@@ -134,6 +134,11 @@ nmap <silent><leader>g :GitGutterSignsToggle<CR>
 set background=dark
 color molokai
 
+if &term =~ '256color'
+	" make background work correctly in tmux
+	set t_ut=
+end
+
 if (has('gui'))
 	" always use text dialogs and UI
 	set guioptions=cm
