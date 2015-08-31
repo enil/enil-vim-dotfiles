@@ -82,6 +82,8 @@ let g:syntastic_mode_map = { 'mode': 'passive' }
 au BufNewFile,BufRead Podfile,Vagrantfile,Guardfile set ft=ruby
 " Gradle scripts are in Groovy
 au BufNewFile,BufRead *.gradle set ft=groovy
+" Dockerfiles with alternative naming
+au BufNewFile,BufRead *.df set ft=Dockerfile
 " outdent accessor modifiers in Ruby
 let g:ruby_indent_access_modifier_style='outdent'
 
