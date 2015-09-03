@@ -33,6 +33,7 @@ Plug 'tpope/vim-rails'
 " git
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 " syntax check
 Plug 'scrooloose/syntastic'
 " filetypes
