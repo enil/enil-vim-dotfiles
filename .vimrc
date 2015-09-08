@@ -134,6 +134,11 @@ nmap <silent><leader><leader> :NERDTreeToggle<CR>
 nmap <silent><leader>s :SyntasticCheck<CR>
 " toggle gitgutter
 nmap <silent><leader>g :GitGutterSignsToggle<CR>
+" jump between windows
+nmap <C-H> <C-W>h
+nmap <C-J> <C-W>j
+nmap <C-K> <C-W>k
+nmap <C-L> <C-W>l
 
 " APPEARANCE
 set background=dark
