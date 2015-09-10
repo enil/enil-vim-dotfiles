@@ -137,8 +137,8 @@ nmap <silent><leader>h :setlocal list!<CR>
 nmap <silent><leader><space> :noh<CR>
 " open CtrlP
 nmap <silent><leader><cr> :CtrlP<CR>
-" toggle NERDTree
-nmap <silent><leader><leader> :NERDTreeToggle<CR>
+" open NERDTree showing the current file
+nmap <silent><leader><leader> :NERDTreeFind<CR>
 " check syntax
 nmap <silent><leader>s :SyntasticCheck<CR>
 " toggle gitgutter
