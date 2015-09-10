@@ -49,6 +49,7 @@ Plug 'rhysd/vim-textobj-ruby'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'kylef/apiblueprint.vim'
 Plug 'https://github.com/nginx/nginx.git', { 'name': 'nginx', 'rtp': 'contrib/vim' }
+Plug 'mattn/emmet-vim'
 " themes
 Plug 'tomasr/molokai'
 Plug 'sickill/vim-monokai'
@@ -80,6 +81,10 @@ nmap ga <Plug>(EasyAlign)
 " syntastic
 " don't check on write
 let g:syntastic_mode_map = { 'mode': 'passive' }
+
+" emmet
+" use tab to expand
+autocmd FileType html,xml,eruby,css imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " FILE TYPES
 
