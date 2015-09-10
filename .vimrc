@@ -95,11 +95,12 @@ let g:ruby_indent_access_modifier_style='outdent'
 syntax on
 filetype plugin indent on
 set encoding=utf-8
-set number ruler
+set number relativenumber ruler
 set backspace=indent,eol,start
 set wildignore=*/target/*,*/work/*,*.o,*.class
 set cursorline
 set colorcolumn=120
+set showcmd
 " hard tabs width 4
 set tabstop=4 shiftwidth=4 noexpandtab
 " make backspace work as expected for soft tabs
