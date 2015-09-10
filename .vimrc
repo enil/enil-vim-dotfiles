@@ -51,6 +51,7 @@ Plug 'https://github.com/nginx/nginx.git', { 'name': 'nginx', 'rtp': 'contrib/vi
 Plug 'tomasr/molokai'
 Plug 'sickill/vim-monokai'
 Plug 'altercation/vim-colors-solarized'
+Plug 'sjl/badwolf'
 
 call plug#end()
 
@@ -142,7 +143,7 @@ nmap <C-L> <C-W>l
 
 " APPEARANCE
 set background=dark
-color molokai
+color badwolf
 
 if &term =~ '256color'
 	" make background work correctly in tmux
