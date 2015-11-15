@@ -50,6 +50,7 @@ Plug 'ekalinin/Dockerfile.vim'
 Plug 'kylef/apiblueprint.vim'
 Plug 'https://github.com/nginx/nginx.git', { 'name': 'nginx', 'rtp': 'contrib/vim' }
 Plug 'mattn/emmet-vim'
+Plug 'pangloss/vim-javascript'
 " themes
 Plug 'tomasr/molokai'
 Plug 'sickill/vim-monokai'
@@ -84,7 +85,7 @@ let g:syntastic_mode_map = { 'mode': 'passive' }
 
 " emmet
 " use tab to expand
-autocmd FileType html,xml,eruby,css imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
+autocmd FileType html,xml,eruby,css imap <buffer> <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
 " FILE TYPES
 
@@ -104,7 +105,6 @@ filetype plugin indent on
 set encoding=utf-8
 set number relativenumber ruler
 set backspace=indent,eol,start
-set wildignore=*/target/*,*/work/*,*.o,*.class
 set cursorline
 set colorcolumn=120
 set showcmd
@@ -123,7 +123,7 @@ set splitright splitbelow
 " show completion menu in command line
 set wildmenu
 " ignore temporary directories from CtrlP etc
-set wildignore+=*/doc/*,*/docs/*,*/temp/*,*/tmp/*,*/vendor/*
+set wildignore=*/target/*,*/work/*,*/doc/*,*/docs/*,*/temp/*,*/tmp/*,*/vendor/*,*/node_modules/*,*.o,*.class
 " mouse support in terminal
 set mouse=a ttymouse=xterm2
 
