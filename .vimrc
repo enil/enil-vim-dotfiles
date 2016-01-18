@@ -98,6 +98,9 @@ au BufNewFile,BufRead *.df set ft=Dockerfile
 " outdent accessor modifiers in Ruby
 let g:ruby_indent_access_modifier_style='outdent'
 
+" Json
+au BufNewFile,BufRead .eslintrc,.babelrc set ft=json
+
 " BEHAVIOR
 
 syntax on
