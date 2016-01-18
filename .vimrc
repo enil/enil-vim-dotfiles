@@ -51,6 +51,7 @@ Plug 'kylef/apiblueprint.vim'
 Plug 'https://github.com/nginx/nginx.git', { 'name': 'nginx', 'rtp': 'contrib/vim' }
 Plug 'mattn/emmet-vim'
 Plug 'pangloss/vim-javascript'
+Plug 'wavded/vim-stylus'
 " themes
 Plug 'tomasr/molokai'
 Plug 'sickill/vim-monokai'
