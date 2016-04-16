@@ -52,6 +52,7 @@ Plug 'https://github.com/nginx/nginx.git', { 'name': 'nginx', 'rtp': 'contrib/vi
 Plug 'mattn/emmet-vim'
 Plug 'pangloss/vim-javascript'
 Plug 'wavded/vim-stylus'
+Plug 'dart-lang/dart-vim-plugin'
 " themes
 Plug 'tomasr/molokai'
 Plug 'sickill/vim-monokai'
